@@ -1,0 +1,489 @@
+nav {
+  border-bottom: 3px solid #ffcc04;
+  padding: 1em;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  transition: all ease-in-out 0.5s;
+  top: 0;
+}
+li {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Karla", sans-serif;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flexColumnStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.flexRowStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.div-logo {
+}
+.div-logo img {
+}
+.toggle-include img {
+  width: 50px;
+}
+#toggle-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 1em;
+}
+
+.toggle-include li {
+  width: 150px;
+  margin: 1em;
+  font: 16px;
+  color: #184990;
+}
+.include-logo {
+  margin-left: 1em;
+}
+.search-bar input {
+  background-color: #f3f3f3;
+  padding: 1em;
+  border: none;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+.search-btn {
+  background-color: #184890;
+  color: white;
+  padding: 1em;
+  outline: none;
+  border: none;
+}
+
+.nav-list li {
+  margin: 1em;
+  font-size: 18px;
+}
+
+.show {
+  display: block;
+  transition: 0.5s;
+}
+
+.about {
+  margin-top: 10em;
+  background-color: #f8fafe;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.text {
+  margin-left: 5em;
+  margin-top: 1em;
+}
+
+.about-bayan p {
+  font-size: 18px;
+  color: #3e3e3e;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.about-bayan button {
+  padding: 1em;
+  background-color: #184890;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-bottom: 3em;
+}
+.about-bayan-img {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-bayan-img img {
+  width: 400px;
+}
+.dev-program {
+  margin-top: 3em;
+}
+.red {
+  margin-top: 1em;
+  width: 70px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #cb2131;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.card {
+  margin-top: 2em;
+}
+.card h1 {
+  font-size: 24px;
+}
+.card p {
+  margin-top: 1em;
+}
+.card button {
+  background-color: #6c6c6c;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.8em;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-top: 2em;
+}
+.card div {
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 250px;
+}
+.card div p {
+  text-align: center;
+}
+.card img {
+  padding: 2em;
+  margin: 0.5em;
+  border-radius: 20%;
+}
+.social {
+  position: fixed;
+  overflow-x: hidden;
+  padding-top: 20px;
+  height: 100%;
+  width: 160px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.social i {
+  padding: 0.8em;
+  color: white;
+  width: 45px;
+}
+.social i:hover {
+  width: 70px;
+  padding-left: 2em;
+  transition: 0.5s;
+}
+
+.fb {
+  background-color: rgb(59, 89, 151);
+}
+.twt {
+  background-color: #1ca1f2;
+}
+.mail {
+  background-color: #72898d;
+}
+.messenger {
+  background-color: rgb(0, 131, 255);
+}
+.plus {
+  background-color: #fe6450;
+}
+.logos {
+  margin-top: 5em;
+}
+.images {
+  margin: 2em;
+  text-align: center;
+}
+.images img {
+  height: 90px;
+  margin: 1em;
+}
+
+.yellow {
+  background-color: #ffcf13;
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  padding-left: 2em;
+}
+
+.yellow-img {
+  clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.yellow-img img {
+  height: 280px;
+  width: 700px;
+  object-fit: cover;
+}
+.yellow-text {
+  margin: 1em;
+}
+.yellow-text h1 {
+  color: rgb(72, 72, 72);
+}
+.yellow-text span {
+  color: #184990;
+  font-family: "Playfair Display", serif;
+}
+.yellow-texts {
+  margin: 0.5em;
+}
+.yellow-text button {
+  background-color: white;
+  color: #184990;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  padding: 1em;
+  border-radius: 3px;
+  font-size: 18px;
+  width: 200px;
+}
+
+footer {
+  background-color: #184990;
+  color: white;
+  padding-left: 2em;
+  width: 100%;
+}
+.footer-content {
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.sitemap ul {
+  margin: 1em;
+}
+.sitemap li {
+  line-height: 36px;
+}
+.logo-main {
+  width: 70px;
+}
+
+.icon {
+  margin: 0.5em;
+}
+.icon i {
+  margin-right: 0.5em;
+}
+.icon-adjust {
+  width: 250px;
+}
+.flexRowSoc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flexRowSoc i {
+  margin: 1em;
+}
+
+/* SLIDE */
+/* Slideshow container */
+.slideshow-container {
+  margin-top: 13em;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  vertical-align: middle;
+  width: 100%;
+  object-fit: cover;
+  height: 550px;
+}
+.events-follow {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  place-items: center;
+}
+.follow i {
+  padding: 1em;
+}
+.follow h2 {
+  color: #3b5998;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  margin-top: 1em;
+}
+.cards:hover {
+  background-color: #f8fafe;
+}
+.cards {
+  margin: 1em;
+  padding: 1em;
+}
+.cards-text {
+  text-align: start;
+  width: 250px;
+}
+.cards-img {
+  margin: 1em;
+}
+.cards-img img {
+  width: 250px;
+  object-fit: cover;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 800px) {
+  .toggle-menu {
+    display: none;
+    transition: 0.5s;
+  }
+  .toggle-include {
+    display: none;
+    transition: 0.5s;
+  }
+  .social {
+    display: none;
+  }
+  main {
+    margin: 0;
+  }
+  .images img {
+    height: 60px;
+    margin: 1em;
+  }
+  .yellow {
+    grid-template-columns: none;
+    text-align: center;
+  }
+  .yellow-img img {
+    display: none;
+  }
+  .toggle-include img {
+    display: none;
+  }
+  .toggle-include li {
+    width: auto;
+  }
+  .show {
+    display: block;
+  }
+  .about {
+    grid-template-columns: none;
+  }
+  .text {
+    margin-left: 20px;
+    margin-top: 1em;
+  }
+  .events-follow {
+    grid-template-columns: none;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+  }
+
+  #toggle-btn {
+    display: none;
+  }
+  .search-bar input {
+    width: 300px;
+  }
+  .logo-footer {
+    flex-direction: column;
+  }
+  .logo-main {
+    width: 100px;
+  }
+}

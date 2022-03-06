@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/4a3662db8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bayan Academy Landing Page</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="div-logo flexRow">
+          <img
+            src="https://www.bayanacademy.org/assets/images/bayan_logo1.png"
+            alt=""
+          />
+          <button id="toggle-btn"><i class="fa-solid fa-bars"></i></button>
+          <div class="toggle-include flexRowStart">
+            <div class="search-bar">
+              <input
+                type="text"
+                placeholder="Find abstract,news,events and more.."
+              />
+              <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <div class="flexRow include-logo">
+              <img
+                src="https://www.bayanacademy.org/assets/images/project_management.png"
+              />
+              <li>Performance Monitoring System</li>
+            </div>
+            <div class="flexRow include-logo">
+              <img
+                src="https://www.bayanacademy.org/assets/images/knowledge_icon.png"
+              />
+              <li>Knowledge Resource Center</li>
+            </div>
+          </div>
+        </div>
+        <!-- TOGGLE MENU -->
+        <div class="toggle-menu">
+          <ul class="nav-list">
+            <li>Home</li>
+            <li>About</li>
+            <li>Institutional Achievements</li>
+            <li>Development Programs</li>
+            <li>Partners</li>
+            <li>Articles</li>
+            <li>Events</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </nav>
+      <!-- SLIDE -->
+
+      <div class="slideshow-container"></div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <!-- ABOUT BAYAN ACADEMY -->
+      <div class="about">
+        <div class="about-bayan">
+          <h3 class="text">What is Bayan Academy?</h3>
+          <p class="text">
+            Bayan Academy for Social Entrepreneurship and Human Resource
+            Development (BASE-HRD or Bayan Academy) is a social development
+            organization that offers entrepreneurship, management and education
+            training programs and services, as well as livelihood and skills
+            training courses for development institutions, cooperatives, banks,
+            educational institutions and micro and small enterprises.
+          </p>
+          <button class="text">MORE ABOUT US</button>
+        </div>
+        <div class="about-bayan-img">
+          <img
+            src="https://www.bayanacademy.org/panel/_files/modbuild/home_photo.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- DEVELOPMENT PROGRAMS -->
+      <div class="dev-program flexRow">
+        <div class="flexColumn">
+          <h1>Development Programs</h1>
+          <div class="red"></div>
+        </div>
+
+        <div class="card flexRow"></div>
+      </div>
+
+      <!-- EVENTS -->
+
+      <div class="events-follow">
+        <div class="events">
+          <h1 style="margin-top: 2em">Events</h1>
+          <div class="red"></div>
+          <div class="tab">
+            <button class="w3-bar-item w3-button" onclick="openCity('London')">
+              ALL
+            </button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Paris')">
+              BAYAN
+            </button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">
+              BEST
+            </button>
+            <button class="w3-bar-item w3-button" onclick="openCity('London')">
+              CREST
+            </button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Paris')">
+              TOP
+            </button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">
+              GREAT
+            </button>
+            <button class="w3-bar-item w3-button" onclick="openCity('London')">
+              AEW
+            </button>
+          </div>
+
+          <div id="London" class="all"></div>
+
+          <div id="Paris" class="w3-container city" style="display: none"></div>
+
+          <div id="Tokyo" class="w3-container city" style="display: none"></div>
+        </div>
+        <div class="follow">
+          <i class="fa-brands fa-facebook-square"></i>
+          <h2>Follow us on Facebook</h2>
+          <div
+            class="fb-page fb_iframe_widget fb_iframe_widget_fluid"
+            data-href="https://www.facebook.com/bayanacademyorg/"
+            data-tabs="timeline"
+            data-width="400"
+            data-height="384"
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="true"
+            fb-xfbml-state="rendered"
+            fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=710&amp;height=384&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fbayanacademyorg%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=400"
+          >
+            <span style="vertical-align: bottom; width: 400px; height: 384px"
+              ><iframe
+                name="f238ce222e02c9c"
+                width="400px"
+                height="384px"
+                data-testid="fb:page Facebook Social Plugin"
+                title="fb:page Facebook Social Plugin"
+                frameborder="0"
+                allowtransparency="true"
+                allowfullscreen="true"
+                scrolling="no"
+                allow="encrypted-media"
+                src="https://www.facebook.com/v2.12/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2e028776a72f0c%26domain%3Dwww.bayanacademy.org%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.bayanacademy.org%252Ff9af70303339b4%26relation%3Dparent.parent&amp;container_width=710&amp;height=384&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fbayanacademyorg%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=400"
+                style="
+                  border: none;
+                  visibility: visible;
+                  width: 400px;
+                  height: 384px;
+                "
+                class=""
+              ></iframe
+            ></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOCIALS -->
+      <div class="social flexColumnStart">
+        <i class="fa-brands fa-facebook-f fb"></i>
+        <i class="fa-brands fa-twitter twt"></i>
+        <i class="fa-solid fa-envelope mail"></i>
+        <i class="fa-brands fa-facebook-messenger messenger"></i>
+        <i class="fa-solid fa-plus plus"></i>
+      </div>
+
+      <!-- TRUSTED PARTNERS -->
+      <div class="logos flexColumn">
+        <h1>Our Trusted Partners</h1>
+        <div class="red"></div>
+        <div class="images flexRow"></div>
+      </div>
+
+      <!-- FOOTER -->
+    </main>
+    <div class="blue-yellow flexRow">
+      <div class="yellow">
+        <div class="yellow-text">
+          <h1 class="yellow-texts">
+            Is your <span>social enterpise</span> ready to scale up?
+          </h1>
+          <p class="yellow-texts">
+            Apply now at Bayan Academy and get access to grants, business boot
+            camps and in-depth mentoring, networks and impact investors.
+          </p>
+          <button class="yellow-texts">INQUIRE NOW</button>
+        </div>
+        <div class="yellow-img">
+          <img
+            src="	https://www.bayanacademy.org/assets/images/social_ent_background.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <footer class="flexRowStart">
+        <div class="footer-content logo-footer flexRow">
+          <img
+            src="https://www.bayanacademy.org/assets/images/bayan_logo3.png"
+            alt=""
+            class="logo-main"
+          />
+          <img
+            src="https://www.bayanacademy.org/assets/images/bayan_logo2.png"
+            alt=""
+          />
+        </div>
+        <div class="footer-content sitemap">
+          <div>
+            <h3>Sitemap</h3>
+          </div>
+          <div class="flexRow">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Institutional Achievements</li>
+              <li>News & Events</li>
+              <li>Partners</li>
+              <li>Contact Us</li>
+            </ul>
+            <ul>
+              <li>BAYAN</li>
+              <li>BEST</li>
+              <li>CREST</li>
+              <li>TOP</li>
+              <li>GREAT</li>
+              <li>AEW</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content contact flexColumnStart">
+          <h3>Contact</h3>
+          <div class="icon icon-adjust flexRowStart">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>
+              2nd Floor Cinderella Building 825 EDSA Quezon City, Philippines
+            </p>
+          </div>
+          <div class="icon flexRow">
+            <i class="fa-solid fa-envelope"></i>
+            <p>info@bayanacademy.edu.ph</p>
+          </div>
+          <div class="icon flexRow">
+            <i class="fa-solid fa-phone"></i>
+            <p>+63.2.426.3140</p>
+          </div>
+        </div>
+        <div class="footer-content social-media flexColumnStart">
+          <h3>Social Media</h3>
+          <div class="flexRowSoc">
+            <div class="icon flexRow">
+              <i class="fa-brands fa-facebook-f"></i>
+              <p>Facebook</p>
+            </div>
+            <div class="icon flexRow">
+              <i class="fa-brands fa-twitter"></i>
+              <p>Twitter</p>
+            </div>
+          </div>
+
+          <div class="flexRowSoc">
+            <div class="icon flexRow">
+              <i class="fa-brands fa-instagram"></i>
+              <p>Instagram</p>
+            </div>
+            <div class="icon flexRow">
+              <i class="fa-brands fa-youtube"></i>
+              <p>Youtube</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
